@@ -1,0 +1,122 @@
+@import "base.css";
+header{
+    color: #4ebbfe;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+}
+header a{
+    color: #4ebbfe;
+}
+header  .iconfont{
+    float: left;
+}
+
+.order{
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    display: flex;
+    /*margin-top: 0.32rem;*/
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+order > a {
+    justify-content: space-between;
+    color: #3bacfe;
+    /*margin-right: 0.5rem;*/
+}
+order > li{
+    width: 0.44rem;
+    height: 0.21rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    color: #36d681;
+    /*margin-right: 0.5rem;*/
+}
+.order > li.hot{
+    color: #36d681;
+}
+.order > li > .iconfont {
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+}
+
+.list{
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+    bottom: 0;
+    background: #fbfeff;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+}
+.listItem{
+    height: 1.74rem;
+    background: #fbfeff ;
+}
+.listItem a{
+    color: #000000;
+}
+.listItem a .introducem{
+    margin: 0.6rem 0;
+    float: right;
+}
+.listItem a img{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+}
+.listItem a .introduce{
+    position: relative;
+    float: left;
+}
+.listItem a img{
+    flex-basis: 1.74rem;
+    height:1.74rem;
+}
+.introduce{
+    width: 4.6rem;
+    height:1.74rem;
+    flex-grow:1;
+}
+.listItem a .introduce .first{
+    font-size: 0.3rem;
+    color: #000000;
+    margin-bottom: 0.1rem;
+}
+.listItem a .introduce .second{
+    font-size: 0.22rem;
+    color: rgba(0 0 0 0.3);
+    margin-bottom: 0.1rem;
+    margin-right: 0.35rem;
+}
+.listItem a .introduce .third{
+    font-size: 0.2rem;
+    color: #36a8fe;
+    margin-bottom: 0.1rem;
+}
+.listItem a .introduce .fourth{
+    font-size: 0.18rem;
+    color: rgba(0 0 0 0.3);
+}
+.listItem a .introduce .fifth{
+    font-size: 0.26rem;
+    color: #fbb548;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.listItem a .introduce .second span::before{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: #36a8fe;
+    position: absolute;
+
+}

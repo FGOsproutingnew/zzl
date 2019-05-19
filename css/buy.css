@@ -1,0 +1,212 @@
+@import url(base.css);
+header{
+    color: #4ebbfe;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    box-shadow: 0rem 0.03rem 0.43rem 0rem rgba(41, 167, 255, 0.13);
+}
+header a{
+    color: #4ebbfe;
+}
+header  .iconfont{
+    float: left;
+}
+.goods{
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+.goods ul li{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    background: #fbfeff;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    border-bottom: 0.01rem solid #eef1f2;
+}
+.goods ul li .Goods{
+    width: 0.77rem;
+    height: 2rem;
+}
+.Goods{
+    width: 0.77rem;
+    height: 1.75rem;
+}
+.Goods a{
+    display: block;
+    width: 0.77rem;
+    height: 1.75rem;
+    position: relative;
+}
+.Goods a > img{
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name{
+    width: 5.2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.name a{
+    display: block;
+    width: 5.2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.name img{
+    width: 1.75rem;
+    height: 1.75rem;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+}
+.name .M{
+    width: 3rem;
+    height: auto;
+    padding: 0.2rem;
+}
+.name h4{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.3rem;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.2rem;
+}
+.name p{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    color: #8e9397;
+    opacity: 0.8;
+}
+.number{
+    width: 1.3rem;
+    height: 2rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    display: flex;
+    padding-top: 0.3rem;
+}
+.number img{
+    width: 0.34rem;
+    height: 0.34rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+}
+.bottom{
+    width: 100%;
+    height: 1.82rem;
+    position: fixed;
+    bottom: 0;
+}
+.bottom .quanxuan{
+    height: 0.73rem;
+    margin-left: 0.78rem;
+}
+.bottom .quanxuan p{
+    position: relative;
+}
+.bottom .quanxuan p::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #e7f6ff;
+    border-radius: 50%;
+    top: 0.11rem;
+    left: -0.5rem;
+    position: absolute;
+}
+.bottom .xiamian{
+    display: flex;
+    height: 1.1rem;
+    justify-content: space-between;
+    background-color: #f1faff;
+}
+.bottom .left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.38rem;
+}
+.bottom .left strong{
+    margin-top: 0.1rem;
+}
+.bottom .left strong p{
+    float: left;
+    width: 0.8rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.bottom .left strong span{
+    width: 0.82rem;
+    height: 0.26rem;
+    font-size: 0.36rem;
+    color: #36a8fe;
+}
+.bottom .left .hot{
+    width: 2.01rem;
+    height: 0.19rem;
+    font-size: 0.2rem;
+    color: #3bacfe;
+    opacity: 0.6;
+    position: relative;
+}
+.bottom .left strong p::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 50%;
+    top: 0.17rem;
+    left: -0.1rem;
+    position: absolute;
+}
+.bottom .left .hot::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 50%;
+    top: 0.13rem;
+    left: -0.1rem;
+    position: absolute;
+}
+.bottom .right .pict{
+    width: 3.8rem;
+    height: 0.6rem;
+    display: flex;
+    margin-top: 0.26rem;
+    margin-right: 0.24rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}
+.bottom .right .pict div{
+    width: 0.5rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    margin-top: 0.11rem;
+    margin-left: 1.56rem;
+}
+
