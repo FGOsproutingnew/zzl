@@ -4,8 +4,8 @@ header{
     height: 0.88rem;
     padding: 0 0.22rem;
     box-sizing: border-box;
-    display: flex;
     justify-content: space-between;
+    text-align: center;
     line-height: 0.88rem;
     font-size: 0.38rem;
     box-shadow: 0rem 0.03rem 0.43rem 0rem rgba(41, 167, 255, 0.13);
