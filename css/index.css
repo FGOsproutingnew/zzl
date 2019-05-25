@@ -38,6 +38,7 @@ header{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .category > li{
     width: 2.1rem;
